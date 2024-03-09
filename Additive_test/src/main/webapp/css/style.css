@@ -1,0 +1,288 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+.body-additive-top{
+	background: linear-gradient(rgb(52, 72, 92), rgb(57, 47, 143));
+    font-family: 'Noto Serif JP', sans-serif;
+    text-align: center;
+    width: 100%;
+	height: 850px;
+}
+
+/* item_index.jsp */
+.body-item-index{
+	background: linear-gradient(rgb(52, 72, 92), rgb(57, 47, 143));
+    font-family: 'Noto Serif JP', sans-serif;
+    text-align: center;
+    width: 100%;
+	height: 850px;
+}
+
+.item-index-text {
+	color: white;
+}
+
+/* sign_up.jsp */
+.sign_body {
+	background: linear-gradient(rgb(52, 72, 92), rgb(57, 47, 143));
+    font-family: 'Noto Serif JP', sans-serif;
+    text-align: center;
+    width: 100%;
+	height: 850px;
+}
+
+.sign_subscribe {
+	background-image: url(../image/water.png);
+	border: 2px solid;
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-left: 650px;
+	margin-right: 650px;
+	padding-top: 70px;
+	padding-bottom: 100px;
+	color: #333;
+}
+
+
+/* log_in.jsp */
+.log_body {
+	background: linear-gradient(rgb(52, 72, 92), rgb(57, 47, 143));
+    font-family: 'Noto Serif JP', sans-serif;
+    text-align: center;
+    width: 100%;
+	height: 100%;
+}
+
+.log_subscribe{
+	background-image: url(../image/water.png);
+	border: 2px solid;
+	border-radius: 10px;
+	margin-left: 700px;
+	margin-right: 700px;
+	padding-bottom: 60px;
+	color: black;
+}
+
+
+/* additive_top */
+.top_additive {
+	margin-top: 30px;
+	margin-left: 500px;
+	margin-right: 500px;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	font-size: 3.0rem;
+	background-image: url(../image/water.png);
+}
+
+.top_bottom {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	padding: 150px;
+}
+
+.switch1 {
+	margin-right: 75px;
+    width: 300px;
+    height: 150px;
+}
+
+.switch1 a {
+	color: white;
+	font-size: 1.7rem;
+}
+.switch2 {
+	margin-left: 70px;
+    width: 300px;
+    height: 150px;
+    
+}
+
+.switch2 a {
+	color: white;
+	font-size: 1.7rem;
+}
+.top_bottom a {
+	text-decoration: none;
+    text-align: center;
+    background: #eee;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+    z-index:0;
+}
+
+.top_bottom a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    display: block;
+    background: rgb(192, 192, 192);
+    transition: .3s;
+    left:0;
+}
+
+.top_bottom a:hover {
+    color: #FFF;
+}
+
+.top_bottom a:hover:before {
+    width: 100%;
+    z-index: -1;
+}
+
+/* additive_index.jp */
+
+.body-additive-index {
+	background: linear-gradient(rgb(52, 72, 92), rgb(57, 47, 143));
+    font-family: 'Noto Serif JP', sans-serif;
+    text-align: center;
+    width: 100%;
+	height: 850px;
+}
+
+.additive_index_text {
+	padding-top: 30px;
+}
+
+/* additive_show.jsp */
+.body-additive-show {
+	background: linear-gradient(rgb(52, 72, 92), rgb(57, 47, 143));
+    font-family: 'Noto Serif JP', sans-serif;
+    text-align: center;
+    width: 100%;
+	height: 850px;
+}
+
+.additive-show-goods {
+	padding-top: 30px;
+}
+
+.body-item-show {
+	background: linear-gradient(rgb(52, 72, 92), rgb(57, 47, 143));
+    font-family: 'Noto Serif JP', sans-serif;
+    text-align: center;
+    width: 100%;
+	height: 850px;
+}
+/* header */
+/*-------------------------------------------------------------------------------*/
+header{
+	display: flex-box;
+/*	border-bottom: 3px solid gray;*/
+	height: 100px;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+hr{
+	width: 100%;
+}
+
+.picture {
+	content: "";
+	background-image: url(../image/header_pic01.jpg);
+	width: 100%;
+	height: 100px;
+/*	justify-content: center;*/
+	border-bottom: solid 1px;
+	border-top: 1px solid black;
+}
+
+.header-box1 a{
+	color: white;
+	text-decoration: none;
+	float: left;
+	height: 100px;
+	margin-block: center;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+.header-box2{
+	height: 100px;
+	display: flex;
+	margin-right: 50px;
+	margin-block: center;
+	float: right;
+	padding-top: 40px;
+}
+
+.header-box2 a {
+	text-decoration: none;
+	color: white;
+}
+
+#header-box2-1{
+	margin-right: 30px
+	
+}
+/* messege */
+.green-messege{
+	color: green;
+}
+
+.red-messege{
+	color: red;
+}
+
+
+/* header.jsp - img */
+.header-imag{
+	width: 400px
+}
+
+/* entrance.jsp */
+
+/* section2 */
+.sign_up, .log_in{
+	font-family: 'Noto Serif JP', sans-serif;
+	display: block;
+	font-size: 20pt;
+	
+}
+
+/* footer */
+
+.wrapper {
+    background: #000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.wrapper p {
+    color: #FFF;
+    font-size: 0.875rem;
+}
+
+/*.wrapper {*/
+/*	 background: #000;*/
+/*    text-align: center;*/
+/*    margin-bottom: 0;*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    width: 100%;*/
+/*    height: 50px;*/
+/*}*/
+
+/*.wrapper p {*/
+/*    color: #FFF;*/
+/*    font-size: 0.875rem;*/
+/*}*/

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+body{
+    background: linear-gradient(rgb(52, 72, 92), rgb(57, 47, 143));
+    height: 6000px;
+}
+
+.subscribe {
+	text-align: center;
+	margin-top: 30px;
+	
+}
+
+.input_subscribed {
+	padding-bottom: 30px;
+}
